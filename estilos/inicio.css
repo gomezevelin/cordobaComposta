@@ -58,24 +58,61 @@
   font-family: "Roboto", sans-serif;
   font-size: 5.4vw;
 }
-@media all and (min-width: 700px) {
-    .inicioTituloDescripcion h2 {
-        font-size: 8vw;
-        letter-spacing: 0.1vw;
-      }
-      .inicioTituloDescripcion h4 {
-        font-size: 4vw;
-        font-family: "Roboto", sans-serif;
-      }
-    .mensajeDeCelularInicio h4 {
-        font-family: "Roboto", sans-serif;
-        font-size: 4.4vw;
-      }
+
+.botonContactoInicio {
+  display: none;
 }
-@media all and (min-width: 950px) {
-    .mensajeDeCelularInicio {
-        display: none;
-    }
+@media all and (min-width: 532px) {
+  .inicioTituloDescripcion h2 {
+    font-size: 7vw;
+    letter-spacing: 0.1vw;
+  }
+  .inicioTituloDescripcion h4 {
+    font-size: 3vw;
+    font-family: "Roboto", sans-serif;
+  }
+  .mensajeDeCelularInicio h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 3.4vw;
+  }
+}
+@media all and (min-width: 700px) {
+  .inicioTituloDescripcion h2 {
+    font-size: 7vw;
+    letter-spacing: 0.1vw;
+  }
+  .inicioTituloDescripcion h4 {
+    font-size: 3vw;
+    font-family: "Roboto", sans-serif;
+  }
+  .mensajeDeCelularInicio h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 3.4vw;
+  }
+}
+
+@media all and (min-width: 900px) {
+  .botonContactoInicio {
+    display: flex;
+    width: 20vw;
+    padding: 0.7vw;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4vw;
+    background-color: #cc2929;
+    color: #fff;
+    border: none;
+    margin-top: 2vw;
+    border-radius: 0.6vw;
+  }
+  .botonContactoInicio:hover{
+    color: #fff;
+    background-color: #e73737;
+  }
+  .mensajeDeCelularInicio {
+    display: none;
+  }
   .inicioTituloDescripcion {
     gap: 0;
     align-items: start;
