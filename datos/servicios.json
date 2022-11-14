@@ -1,0 +1,26 @@
+[
+  {
+    "titulo": "Experiencia de Compostaje a medida",
+    "imagen": "https://ahora.com.pe/wp-content/uploads/2020/09/plantita.jpg",
+    "textoCorto": "Montamos juntos el sistema de compostaje que más se ajuste a las necesidades de tu negocio/comunidad/institución.",
+    "textoHover": "probando"
+  },
+  {
+    "titulo": "Talleres",
+    "imagen": "https://ahora.com.pe/wp-content/uploads/2020/09/plantita.jpg",
+    "textoCorto": "-Ciclicidad,personas y compostaje <br> -Hablemos de compost",
+    "textoHover": "probando"
+  },
+  {
+    "titulo": "Asesoría Comuncacional",
+    "imagen": "https://ahora.com.pe/wp-content/uploads/2020/09/plantita.jpg",
+    "textoCorto": "Nuestra meta es guiar las prácticas comunicacionales más efectivas a la hora de concientizar sobre problematicas y soluciones ambientales y de compostaje",
+    "textoHover": "probando"
+  },
+  {
+    "titulo": "Consultoría psicoambiental",
+    "imagen": "https://ahora.com.pe/wp-content/uploads/2020/09/plantita.jpg",
+    "textoCorto": "Nuestra meta es orientar en los procesos subjetivos implicados en nuestro derecho a la salud y el ambiente sano",
+    "textoHover": "probando"
+  }
+]

@@ -1,0 +1,92 @@
+/**Fondo inicio*/
+.paginaDeInicio {
+  margin: 0;
+  padding: 0;
+  height: 90vh;
+  width: 100%;
+  background-image: url("https://qiarg.org/wp-content/uploads/2020/08/compostaje.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+}
+.capaDeImagenDeInicio {
+  z-index: 20;
+  position: absolute;
+  width: 100%;
+  height: 90vh;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.inicioTituloDescripcion {
+  z-index: 30;
+  color: #fff;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 60%;
+  padding-top: 15vw;
+  gap: 4vw;
+}
+.inicioTituloDescripcion h2 {
+  font-size: 10vw;
+  letter-spacing: 0.1vw;
+}
+.inicioTituloDescripcion h4 {
+  font-size: 6vw;
+  font-family: "Roboto", sans-serif;
+}
+.mensajeDeCelularInicio {
+  position: absolute;
+  z-index: 30;
+  background-color: #edaa2d;
+  bottom: 0;
+  color: #fff;
+  padding: 6vw;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.mensajeDeCelularInicio h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 5.4vw;
+}
+@media all and (min-width: 700px) {
+    .inicioTituloDescripcion h2 {
+        font-size: 8vw;
+        letter-spacing: 0.1vw;
+      }
+      .inicioTituloDescripcion h4 {
+        font-size: 4vw;
+        font-family: "Roboto", sans-serif;
+      }
+    .mensajeDeCelularInicio h4 {
+        font-family: "Roboto", sans-serif;
+        font-size: 4.4vw;
+      }
+}
+@media all and (min-width: 950px) {
+    .mensajeDeCelularInicio {
+        display: none;
+    }
+  .inicioTituloDescripcion {
+    gap: 0;
+    align-items: start;
+    margin-left: 5vw;
+    width: 90vw;
+  }
+  .inicioTituloDescripcion h2 {
+    font-size: 3.5vw;
+  }
+  .inicioTituloDescripcion h4 {
+    font-size: 2.5vw;
+    text-align: justify;
+  }
+}
