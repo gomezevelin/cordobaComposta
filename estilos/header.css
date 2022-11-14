@@ -20,6 +20,11 @@
 }
 .ul-menu {
   margin-top: 2rem;
+  display: flex;
+  align-items: flex-end;
+}
+#navbarNav{
+  justify-content: flex-end;
 }
 
 .nav-item {
