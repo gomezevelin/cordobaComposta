@@ -1,9 +1,15 @@
+
 /* Header*/
 @import "./estilos/header.css";
 /*Section Servicios*/
 @import "./estilos/servicios.css";
+/*Nosotros*/
+@import"./estilos/nosotros.css";
 /* Inicio*/
-@import "./estilos/inicio.css"
-/* Inicio*/
-
-
+@import "./estilos/inicio.css";
+/*Equipo*/
+@import "./estilos/equipo.css";
+/*Contacto*/
+@import "./estilos/contacto.css";
+/*Footer*/
+@import "./estilos/footer.css";
