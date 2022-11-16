@@ -1,6 +1,8 @@
 
 /* Header*/
 @import "./estilos/header.css";
+/** Boton wpp */
+@import "./estilos/botonWpp.css";
 /*Section Servicios*/
 @import "./estilos/servicios.css";
 /*Nosotros*/

@@ -1,4 +1,158 @@
-.div-sec-nos{
-    background-image:url("../img/principal_reciclaje_materia_organica.jpg");
-    background-color: black;
+/**Banner no es basura*/
+.bannerMovimiento {
+  width: 100%;
+  height: 130vh;
+  position: relative;
+  background-image: url(../img/Compost-shutterstock_1431477179-1024x328.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.imagenDeBanner {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.capaDeBanner {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: 10;
+}
+.imagenDeBanner img {
+  width: 50%;
+  position: absolute;
+  z-index: 20;
+}
+/** Seccion nosotros*/
+.div-sec-nos {
+  height: 100vh;
+  width: 100%;
+  background-color: #f2f0ea;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 !important;
+}
+.tituloNosotros {
+  height: 12vh;
+  display: flex;
+  align-items: center;
+}
+.informacionNosotros {
+  width: 100%;
+  height: 90%;
+}
+/** Renderizado en celular*/
+.informacionNosotrosCelular {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/principal_reciclaje_materia_organica.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.capaNosotros {
+  background: rgba(255, 244, 116, 0.79);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.valoresNosotrosCelular{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: 40;
+}
+.valorCelular{
+    width: 80vw;
+    gap: 3vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.valorCelular h3{
+    font-size: 5vw;
+}
+.valorCelular img{
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
+    object-position: center;
+}
+/** Renderizado en pc*/
+.informacionNosotrosPc{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.valoresPc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color: #f2f0ea;
+    padding: 4vw;
+}
+.valoresPc h4{
+    font-size: 1.4vw;
+}
+.imagenNosotrosPc{
+    width: 50%;
+    height: 100%;
+    background-color: #f2f0ea;
+    padding: 4vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagenNosotrosPc img{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+@media all and (min-width: 700px) {
+  .imagenDeBanner img {
+    width: 40%;
+    position: absolute;
+    z-index: 20;
+  }
+}
+@media all and (min-width: 992px) {
+  .imagenDeBanner img {
+    width: 18%;
+    position: absolute;
+    z-index: 20;
+  }
+  .informacionNosotros {
+    width: 90%;
+    height: 90%;
+  }
+  .tituloNosotros {
+    width: 80vw;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+
+}
 }

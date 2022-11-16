@@ -1,0 +1,19 @@
+.botonWpp{
+    display: none;
+}
+@media all and (min-width: 920px) {
+    .botonWpp{
+        display: flex;
+        position: fixed;
+        bottom: 2vw;
+        right: 2vw;
+        z-index: 100;
+    }
+    .botonWpp img{
+        width: 8vw;
+        cursor: pointer;
+    }
+    .botonWpp img:hover{
+        scale: 1.2;
+    }
+}

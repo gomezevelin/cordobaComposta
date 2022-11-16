@@ -91,7 +91,7 @@
   }
 }
 
-@media all and (min-width: 900px) {
+@media all and (min-width: 920px) {
   .botonContactoInicio {
     display: flex;
     width: 20vw;
