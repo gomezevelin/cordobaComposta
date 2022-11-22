@@ -1,0 +1,10 @@
+.div-carrusel{
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.sub-carrusel{
+    font-weight: 800;
+    text-align: center;
+    margin-top: 0.7rem;
+}

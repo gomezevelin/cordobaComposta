@@ -5,3 +5,12 @@ border-radius: 20px;
 margin-left: 1rem;
 margin-right: 1rem;
 }
+
+@media all and (min-width: 700px){
+    .div-card-equipo{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+}
