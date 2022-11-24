@@ -1,19 +1,21 @@
 
-/* Header*/
+/** Header*/
 @import "./estilos/header.css";
 /** Boton wpp */
 @import "./estilos/botonWpp.css";
-/*Section Servicios*/
+/** Section Servicios*/
 @import "./estilos/servicios.css";
-/*Nosotros*/
+/** Nosotros*/
 @import"./estilos/nosotros.css";
-/* Inicio*/
+/** Inicio*/
 @import "./estilos/inicio.css";
-/*Equipo*/
+/** Equipo*/
 @import "./estilos/equipo.css";
-/*Impacto*/
+/** Impacto*/
 @import "./estilos/impacto.css";
-/*Contacto*/
+/** Contacto*/
 @import "./estilos/contacto.css";
-/*Footer*/
+/** Footer*/
 @import "./estilos/footer.css";
+/*Titulo de secciones*/
+@import "./estilos/tituloDeSecciones.css"
