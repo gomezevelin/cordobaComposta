@@ -1,5 +1,5 @@
 .fondoServicio {
-  background-color: #eeb888;
+  background-color: #f2f0ea;
   max-width: 100vw;
   overflow: hidden;
   display: flex;
@@ -14,7 +14,8 @@
 }
 .card-body {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 5vw;
   align-items: space;
   flex-direction: column;
   position: relative;
@@ -36,7 +37,8 @@
   border-radius: 50%;
 }
 .tamañoCartas {
-  width: 90vw;
+  height: 50vh!important;
+  width: 90vw!important;
   overflow: hidden;
   border: none !important;
 }
@@ -50,18 +52,20 @@
   opacity: 0;
   transition: all 0.3s;
   display: flex;
-  justify-content: space-evenly;
+  justify-content:center;
   align-items: center;
   flex-direction: column;
   padding-top: 4vw;
   cursor: pointer;
 }
 .informacionServicioHover p {
-  font-size: .7rem;
-  height: 80%;
-  padding: 2vw;
+  font-size: 1rem;
+  max-height: 80%;
+  padding: 4vw;
   overflow-y: scroll;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .informacionServicioHover:hover {
   opacity: 1;
@@ -69,6 +73,7 @@
 .sec-servicios{
   padding: 0!important;
   margin: 0!important;
+  align-items: center;
 }
 @media all and (min-width: 700px) {
   .hojitaServicio {
@@ -101,7 +106,7 @@
   }
   .informacionServicioHover p{
     font-size: 2.5vw;
-    height: 80%;
+    max-height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,6 +135,9 @@
     width: 6vw;
     height: 6vw;
   }
+  .card-body{
+    gap: 0;
+  }
   .card-title {
     font-size: 1.6vw;
   }
@@ -140,11 +148,12 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
   }
 
   .contenedorDeCartasServicio {
-    height: 80vh;
+    height: 70vh;
+    width: 90vw;
   }
   .informacionServicioHover{
     padding-top: 1.5vw;
@@ -153,11 +162,15 @@
     font-size: 1.5vw;
   }
   .informacionServicioHover p{
-    font-size: .8vw;
-    height: 90%;
+    font-size: 1vw;
+    max-height: 90%;
     overflow-y: hidden;
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 1vw;
+  }
+  .div-card-servicios{
     align-items: center;
   }
 }

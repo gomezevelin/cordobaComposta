@@ -94,8 +94,7 @@
 @media all and (min-width: 920px) {
   .botonContactoInicio {
     display: flex;
-    width: 20vw;
-    padding: 0.7vw;
+    padding: 1vw 2vw;
     text-decoration: none;
     justify-content: center;
     align-items: center;
