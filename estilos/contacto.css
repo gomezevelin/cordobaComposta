@@ -11,7 +11,6 @@ form {
 
 form input,
 textarea {
-  width: 94vw;
   left: 0px;
   top: 0px;
   border: 3px solid #edaa2d;
@@ -23,10 +22,9 @@ textarea {
 }
 .div-btn-form {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  flex-direction: row;
+  align-items: center;
   gap: 0.8rem;
-  margin-right: 1.5rem;
 }
 
 .btn-submit {
@@ -51,6 +49,8 @@ textarea {
   line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .icon-contacto {
   color: #edaa2d;
@@ -61,14 +61,43 @@ textarea {
   border-radius: 0px;
   font-size: 30px;
 }
+.div-form {
+  display: block;
+}
+
+@media only screen and (min-width: 690px){
+  .div-sec-contacto {
+    flex-direction: row;
+  }
+
+  .subtitulo{
+    font-size: 40px;
+  }
+  .imgSubtitulo{
+    width: 50px;
+    height: 50px;
+  }
+  .divImgSub{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
 
 @media only screen and (min-width: 768px) {
   .sec-contacto {
-    width: 50%;
+    margin-left: 1.2rem;
   }
+
+  .div-form {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
   form input,
   textarea {
-    width: 90vw;
+    width: 50vw;
     left: 0px;
     top: 0px;
     border: 3px solid #edaa2d;

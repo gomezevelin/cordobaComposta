@@ -8,3 +8,22 @@
     text-align: center;
     margin-top: 0.7rem;
 }
+
+@media only screen and (min-width: 690px){
+    .div-sec-contacto {
+      flex-direction: row;
+    }
+  
+    .subtitulo{
+      font-size: 40px;
+    }
+    .imgSubtitulo{
+      width: 50px;
+      height: 50px;
+    }
+    .divImgSub{
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
