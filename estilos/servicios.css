@@ -1,5 +1,5 @@
 .fondoServicio {
-  background-color: #f2f0ea;
+  background-image: url(../img/servicios\ mobile\ 2.png);
   max-width: 100vw;
   overflow: hidden;
   display: flex;
@@ -140,6 +140,7 @@
   }
   .fondoServicio {
     min-height: 100vh;
+    background-image: url(../img/fondo\ servicios.png);
   }
   .imagenCard {
     height: 8vw;

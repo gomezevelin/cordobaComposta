@@ -40,6 +40,7 @@ fetch(servicios)
   });
 
 //* Función para renderizar Nosotros.
+
 let seccionInformacion = document.querySelector(`.informacionNosotros`);
 if (window.screen.width > 920) {
   seccionInformacion.innerHTML = `<div class="informacionNosotrosPc">
@@ -71,4 +72,42 @@ if (window.screen.width > 920) {
    </div>
    <div class="capaNosotros"></div>
  </div>`;
+}
+
+
+// Función para sección Impacto
+
+let agregarCardsImpacto = (tituloImpacto, imagenImpacto, textoCardImpacto) => {
+  let contenedor = document.querySelector(`.contenidoImpacto`);
+  let impacto = `<img src=${imagenImpacto} class="d-block w-100"
+  alt="compost">
+<h4 class="sub-carrusel">${tituloImpacto}</h4>
+<p>${textoCardImpacto}</p>`;
+  contenedor.innerHTML += impacto;
+};
+
+const impacto = "./datos/impacto.json";
+
+fetch(impacto)
+  .then((res) => res.json())
+  .then((datos) => {
+    for (imp of datos) {
+      agregarCardsImpacto(
+        imp.tituloImpacto,
+        imp.imagenImpacto,
+        imp.textoCardImpacto,
+      );
+    }
+  })
+  .catch((err) => console.log(`Ocurrió un error en la carga de servicios`))
+  .finally((dat) => {
+    console.log(`servicios cargados`);
+  });
+
+
+let seccionImpacto = document.querySelector(`.contenidoImpacto`)
+if (window.screen.width > 990){
+  seccionImpacto.innerHTML = `probando`;
+}else{
+  seccionImpacto.innerHTML =`porbando2`
 }

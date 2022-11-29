@@ -4,7 +4,7 @@
   padding: 0;
   height: 90vh;
   width: 100%;
-  background-image: url("https://qiarg.org/wp-content/uploads/2020/08/compostaje.jpg");
+  background-image: url("../img/pexels-photo-12113255\ \(1\).jpeg");
   background-position: center;
   background-size: cover;
   z-index: 1;
@@ -27,7 +27,7 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-end;
   align-items: center;
   text-align: center;
   width: 100%;
@@ -38,6 +38,7 @@
 .inicioTituloDescripcion h2 {
   font-size: 10vw;
   letter-spacing: 0.1vw;
+
 }
 .inicioTituloDescripcion h4 {
   font-size: 6vw;
@@ -117,6 +118,7 @@
     align-items: start;
     margin-left: 5vw;
     width: 90vw;
+    justify-content: center;
   }
   .inicioTituloDescripcion h2 {
     font-size: 3.5vw;
