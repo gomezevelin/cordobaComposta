@@ -8,7 +8,7 @@ let agregarCartasServicio = (titulo, imagen, textoCorto, textoHover) => {
             <img src="${imagen}" alt="${titulo}">
           </div>
           <h5 class="card-title">${titulo}</h5>
-          <p class="card-text">${textoCorto}</p>
+          
         </div>
         <div class="informacionServicioHover">
           <h5>${titulo}</h5>
@@ -75,39 +75,74 @@ if (window.screen.width > 920) {
 }
 
 
-// Función para sección Impacto
+// // Función para sección Impacto
 
-let agregarCardsImpacto = (tituloImpacto, imagenImpacto, textoCardImpacto) => {
-  let contenedor = document.querySelector(`.contenidoImpacto`);
-  let impacto = `<img src=${imagenImpacto} class="d-block w-100"
-  alt="compost">
-<h4 class="sub-carrusel">${tituloImpacto}</h4>
-<p>${textoCardImpacto}</p>`;
-  contenedor.innerHTML += impacto;
-};
+// let agregarCardsImpacto = (tituloImpacto, imagenImpacto, textoCardImpacto) => {
+//   let contenedor = document.querySelector(`.contenidoImpacto`);
+//   let impacto = `<img src=${imagenImpacto} class="d-block w-100"
+//   alt="compost">
+// <h4 class="sub-carrusel">${tituloImpacto}</h4>
+// <p>${textoCardImpacto}</p>`;
+//   contenedor.innerHTML += impacto;
+// };
 
-const impacto = "./datos/impacto.json";
+// const impacto = "./datos/impacto.json";
 
-fetch(impacto)
-  .then((res) => res.json())
-  .then((datos) => {
-    for (imp of datos) {
-      agregarCardsImpacto(
-        imp.tituloImpacto,
-        imp.imagenImpacto,
-        imp.textoCardImpacto,
-      );
-    }
-  })
-  .catch((err) => console.log(`Ocurrió un error en la carga de servicios`))
-  .finally((dat) => {
-    console.log(`servicios cargados`);
-  });
+// fetch(impacto)
+//   .then((res) => res.json())
+//   .then((datos) => {
+//     for (imp of datos) {
+//       agregarCardsImpacto(
+//         imp.tituloImpacto,
+//         imp.imagenImpacto,
+//         imp.textoCardImpacto,
+//       );
+//     }
+//   })
+//   .catch((err) => console.log(`Ocurrió un error en la carga de servicios`))
+//   .finally((dat) => {
+//     console.log(`servicios cargados`);
+//   });
 
 
-let seccionImpacto = document.querySelector(`.contenidoImpacto`)
-if (window.screen.width > 990){
-  seccionImpacto.innerHTML = `probando`;
-}else{
-  seccionImpacto.innerHTML =`porbando2`
-}
+// let seccionImpacto = document.querySelector(`.contenidoImpacto`)
+// if (window.screen.width > 990){
+//   seccionImpacto.innerHTML = `probando`;
+// }else{
+//   seccionImpacto.innerHTML =`porbando2`
+// }
+
+//* Evento de cards chicas
+let cartaCamila=document.querySelector(".camilaCard")
+let hoverCamila=document.querySelector(".hoverCardChicas1")
+
+cartaCamila.addEventListener("mouseover",()=>{
+  hoverCamila.classList.add(`activarHover`)
+  setTimeout(()=>{
+    hoverCamila.classList.add(`animar`)
+  },1)
+})
+
+hoverCamila.addEventListener("mouseleave",()=>{
+  hoverCamila.classList.remove(`animar`)
+  setTimeout(()=>{
+    hoverCamila.classList.remove(`activarHover`)
+  },500)
+})
+
+
+let cartaMarianela=document.querySelector(".marianelaCard")
+let hoverMarianela=document.querySelector(".hoverCardChicas2")
+cartaMarianela.addEventListener("mouseenter",()=>{
+  hoverMarianela.classList.add(`activarHover`)
+  setTimeout(()=>{
+    hoverMarianela.classList.add(`animar`)
+  },1)
+})
+
+hoverMarianela.addEventListener("mouseleave",()=>{
+  hoverMarianela.classList.remove(`animar`)
+  setTimeout(()=>{
+    hoverMarianela.classList.remove(`activarHover`)
+  },500)
+})

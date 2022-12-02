@@ -1,26 +1,26 @@
 [
   {
-    "titulo": "Tu compost",
+    "titulo": "<b>Tu compost</b>",
     "imagen": "./img/tu compost.png",
-    "textoCorto": "Montamos juntos el sistema de compostaje que más se ajuste a las necesidades de tu negocio/comunidad/institución.",
-    "textoHover": "Montamos juntos el sistema de compostaje que más se ajuste a las necesidades de tu organización y comunidad Evaluamos tu oportunidad de incorporar un método de compostaje. Construimos e instalamos tu estación de compostaje reciclada Te enseñamos a vos y a tu equipo cómo gestionarla. Acompañamos tu curva de aprendizaje, haciendo seguimiento de tu experiencia para aprender a cerrar ciclos de residuo cero."
+    
+    "textoHover": "Montamos juntos el sistema de compostaje que más se ajuste a las necesidades de tu organización y comunidad. Te enseñamos como gestionarlo y hacemos un seguimiento de tu experiencia"
   },
   {
-    "titulo": "Talleres",
+    "titulo": "<b>Talleres</b>",
     "imagen": "./img/talleres.png",
-    "textoCorto": "-Ciclicidad,personas y compostaje <br> -Hablemos de compost",
-    "textoHover": "Distintas tipologías de talleres para llamar a la acción del compostaje Ciclicidad, personas y compostaje: para comprender desde un punto de vista vivencial y experiencial la naturaleza cíclica que nos empareja a las personas con el ecosistema Hablemos de compost: Aprender a construir y transmitir mensajes sobre sostenibilidad, cuidado del ambiente y compostaje a través de buenas y mejores prácticas comunicacionales a tener en cuenta para dirigirnos de manera efectiva a distintos públicos, clientes y generar un contenido de verdadero impacto."
+
+    "textoHover": "Aprende sobre compostaje y gestión de residuos orgánicos a través de nuestros talleres. Aprenderemos de manera práctica sobre los procesos vinculados con la sostenibilidad, cuidado del ambiente y compostaje.<br><b>¡No se necesita tener conocimientos previos, sólo ganas de pensarse, cuestionarse y cambiar el mundo!</b>"
   },
   {
-    "titulo": "Asesoría Comuncacional",
+    "titulo": "<b>Asesoría Comuncacional</b>",
     "imagen": "./img/consultoria.png",
-    "textoCorto": "Nuestra meta es guiar las prácticas comunicacionales más efectivas a la hora de concientizar sobre problematicas y soluciones ambientales y de compostaje",
-    "textoHover": "Co creamos las prácticas comunicacionales más efectivas a la hora de comunicar el impacto ambiental de tu organización. Generamos conciencia en tu comunidad sobre problemáticas y soluciones ambientales y de compostaje"
+
+    "textoHover": "<b>Generemos conciencia</b> en tu comunidad co creando las prácticas y contenidos más efectivos para comunicar el impacto ambiental de tu organización."
   },
   {
-    "titulo": "Consultoría en gestión de residuos",
+    "titulo": "<b>Consultoría en gestión de residuos</b>",
     "imagen": "./img/asesoría comunicacional.png",
-    "textoCorto": "Nuestra meta es orientar en los procesos subjetivos implicados en nuestro derecho a la salud y el ambiente sano",
-    "textoHover": " Nuestra meta es guiar a organizaciones y comunidades en los procesos subjetivos implicados en nuestro derecho a la salud y el ambiente sano. Diseñamos estrategias eco ambientales y de compostaje, enfocadas en los grupos humanos y sus contextos particulares"
+  
+    "textoHover": " <b>Diseñamos estrategias</b> eco ambientales y de compostaje, enfocada en los grupos humanos y sus contextos particulares."
   }
 ]

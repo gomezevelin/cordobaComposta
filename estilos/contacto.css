@@ -15,6 +15,15 @@ textarea {
   top: 0px;
   border: 3px solid #edaa2d;
   border-radius: 10px;
+  resize: none !important;
+}
+form input:focus {
+  outline: none;
+  border: 3px solid #859c41;
+}
+textarea:focus {
+  outline: none;
+  border: 3px solid #859c41;
 }
 
 textarea {
@@ -24,6 +33,7 @@ textarea {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   gap: 0.8rem;
 }
 
@@ -60,35 +70,45 @@ textarea {
   top: 10.546875px;
   border-radius: 0px;
   font-size: 30px;
+  margin-right: 1vw;
+}
+.icon-contacto:hover{
+  color: #859c41;
+  scale: 1.2;
 }
 .div-form {
   display: block;
 }
 
-@media only screen and (min-width: 690px){
+@media only screen and (min-width: 690px) {
   .div-sec-contacto {
     flex-direction: row;
   }
 
-  .subtitulo{
+  .subtitulo {
     font-size: 40px;
   }
-  .imgSubtitulo{
+  .imgSubtitulo {
     width: 50px;
     height: 50px;
   }
-  .divImgSub{
+  .divImgSub {
     display: flex;
     align-items: center;
     justify-content: flex-end;
   }
 }
-
+.detallesContacto {
+  width: 100%;
+}
+.detallesContacto:first-child{
+  background-color: #f2f0ea;
+}
 @media only screen and (min-width: 768px) {
   .sec-contacto {
     margin-left: 1.2rem;
   }
-
+  
   .div-form {
     justify-content: center;
     align-items: center;
@@ -102,5 +122,14 @@ textarea {
     top: 0px;
     border: 3px solid #edaa2d;
     border-radius: 10px;
+  }
+  .seccionContacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-contacto{
+    font-size: 3vw;
   }
 }
