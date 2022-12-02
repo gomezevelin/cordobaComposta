@@ -31,6 +31,12 @@ footer img {
         width: 47%;
     }
 }
+@media all and (min-width: 700px) {
+    footer img{
+        width: 40%;
+    }
+}
+
 
 @media all and (min-width: 992px) {
     footer{

@@ -45,12 +45,16 @@ let seccionInformacion = document.querySelector(`.informacionNosotros`);
 if (window.screen.width > 920) {
   seccionInformacion.innerHTML = `<div class="informacionNosotrosPc">
   <div class="valoresPc">
-    <h4>Proyecto Cba Composta es una <b>oportunidad de Co-crear</b> espacios de <b>responsabilidad ambiental</b>. Nace en 2021, en el auge del Ecosistema Emprendedor Cordobés; en un intento de dos jóvenes profesionales y amigas; de proponer y fomentar la <b>innovación sustentable en las ciudades.</b></h4>
-    <h4> Iniciativa <b>ganadora del desafio Jóvenes Innovadores</b> del laboratorio de innovación Govetch de la Municipalidad de Córdoba. MVP validado en el sector de la economía circular y Triple impacto. <br> Surgue de la experiencia de su equipo en el trabajo con distintos sectores, sumado al <b>anhelo</b> por sostener las motivaciones personales en un emprendimiento propio.</h4>
-    <h4>Córdoba Composta es una marca de <b>propósitos comunitarios, colaborativos y de equidad,</b> encontrando su identida en la <b>generación de alianzas</b> estratégicas ambientales justas y en red</h4>
+    <h4>Córdoba Composta nace en 2021 como una alternativa a la gestión de residuos orgánicos en origen.</h4>
+
+    <h4>Buscamos responsabilizarnos por nuestros consumos, hábitos y nuestro papel como productores de desechos, ofreciendo servicios vinculados al tratamiento de residuos orgánicos; destinados a empresas, organizaciones, instituciones, privadas y públicas.</h4>
+    
+    <h4>Es una Iniciativa Ganadora del desafío Jóvenes Innovadores del Laboratorio de Innovación Pública y Social de la Municipalidad de Córdoba.</h4>
+    <h4>Sabemos que cada persona y organización es distinta y diversa, por eso nuestro propósito es co crear experiencias de compostaje teniendo en cuenta la singularidad de las personas y organizaciones.</h4>
+    <h2>¡Animate a ser parte de la solución!</h2>
   </div>
   <div class="imagenNosotrosPc">
-    <img src="./img/composteraCompleta.jpg" alt="Compostera">
+    <img src="./img/imagenSeccionNosotros.png" alt="Compostera">
   </div>
 </div>`;
 } else {

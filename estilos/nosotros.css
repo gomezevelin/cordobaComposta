@@ -91,8 +91,8 @@
     font-size: 5vw;
 }
 .valorCelular img{
-    width: 30%;
-    height: 30%;
+    width: 12vw;
+    height: 12vw;
     object-fit: contain;
     object-position: center;
 }
@@ -106,8 +106,8 @@
 }
 .valoresPc{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
     flex-direction: column;
     width: 50%;
     height: 100%;
@@ -132,9 +132,14 @@
     height: 100%;
     object-fit: cover;
 }
+@media all and (min-width: 500px) {
+  .valorCelular h3{
+    font-size: 3vw;
+}
+}
 @media all and (min-width: 600px) {
   .valorCelular h3{
-    font-size: 4vw;
+    font-size: 3vw;
 }
   .imagenDeBanner img {
     width: 40%;
@@ -153,6 +158,17 @@
       align-items: center;
       justify-content: flex-end;
     }
+}
+@media all and (min-width: 800px) {
+  .valorCelular h3{
+    font-size: 2vw;
+}
+.valorCelular img{
+  width: 9vw;
+  height: 9vw;
+  object-fit: contain;
+  object-position: center;
+}
 }
 @media all and (min-width: 992px) {
   .imagenDeBanner img {

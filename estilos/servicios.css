@@ -130,12 +130,12 @@
     font-size: 3vw;
   }
   .tamañoCartas {
-    width: 39vw!important;
-    height: 19vw !important;
+    width: 40vw!important;
+    height: 20vw!important;
     border-radius: 1.5vw !important;
   }
   .fondoServicio {
-    height: 100vh;
+    min-height: 110vh;
     background-image: url(../img/fondo\ servicios.png);
     background-size: cover;
     background-position: center;
@@ -184,10 +184,19 @@
     align-items: center;
   }
 }
-@media all and (min-width: 1750px) {
+@media all and (min-width:1300px){
+ 
   .tamañoCartas {
     width: 37vw!important;
     height: 17vw !important;
     border-radius: 1.5vw !important;
   }
+}
+@media all and (min-width: 1750px) {
+  .tamañoCartas {
+    width: 39vw!important;
+    height: 19vw !important;
+    border-radius: 1.5vw !important;
+  }
+  
 }

@@ -72,6 +72,15 @@
   object-fit: cover;
   object-position: center;
 }
+@media all and (min-width: 400px) {
+.imagenChicas{
+  width: 35vw;
+  height: 35vw;
+}
+.logoCardHover{
+  width: 15%;
+}
+}
 @media all and (min-width: 600px) {
   .div-card-equipo {
     display: flex;
@@ -104,8 +113,19 @@
   .tituloHoverChicas{
     font-size: 4vw;
   }
+  .logoCardHover{
+    width: 10%;
+  }
 }
-
+@media all and (min-width: 700px) {
+  .imagenChicas{
+    width: 20vw;
+    height: 20vw;
+  }
+  .centrarCartasChicas h5{
+    font-size: 4vw;
+  }
+  }
 @media all and (min-width: 993px) {
   .card-equipo{
     width: 45vw;
