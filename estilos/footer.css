@@ -26,7 +26,11 @@ footer img {
   position: relative;
 }
 
-@media all and (min-width: 700px) {}
+@media all and (min-width: 600px) {
+    footer img{
+        width: 47%;
+    }
+}
 
 @media all and (min-width: 992px) {
     footer{

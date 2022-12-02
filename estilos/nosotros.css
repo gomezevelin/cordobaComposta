@@ -132,7 +132,10 @@
     height: 100%;
     object-fit: cover;
 }
-@media all and (min-width: 700px) {
+@media all and (min-width: 600px) {
+  .valorCelular h3{
+    font-size: 4vw;
+}
   .imagenDeBanner img {
     width: 40%;
     position: absolute;
