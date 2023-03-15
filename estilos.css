@@ -17,3 +17,5 @@
 @import "./estilos/contacto.css";
 /*Footer*/
 @import "./estilos/footer.css";
+
+/*overflow:scroll --> para que el texto scrolee en el carrusel */

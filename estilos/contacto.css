@@ -63,12 +63,19 @@ textarea {
 }
 
 @media only screen and (min-width: 768px) {
-  .sec-contacto {
-    width: 50%;
+  .div-sec-contacto{
+    flex-direction: row;
+    justify-content: space-around;
   }
+
+  .sec-contacto {
+    width: 50vw;
+  }
+ 
   form input,
   textarea {
-    width: 90vw;
+    
+    width: 30vw;
     left: 0px;
     top: 0px;
     border: 3px solid #edaa2d;
